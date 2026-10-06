@@ -1,0 +1,18 @@
+#This game will choose a number and will find it
+#It will asks your guess
+import random as rdm
+n = rdm.randint(1, 500)
+print("I chose a number between 1 to 500. Try to guess it!")
+n1 = float(input("Enter your guess: "))
+while True or False:
+    if n1 == n:
+        print("well done! You guessed the number correctly. You are a genius.")
+        break
+    elif n1 < n:
+        print("Your guess is too low. Keep trying don't give up, you are closer to the number.")
+        n1 = float(input("Enter your guess: "))
+    else:
+        print("Your guess is too high. Keep trying, you are closer, don't give up.")
+        n1 = float(input("Enter your guess: "))
+        
+print("thank you for playing the game. I hope you enjoyed it.")
