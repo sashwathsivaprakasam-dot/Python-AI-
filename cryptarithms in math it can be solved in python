@@ -1,0 +1,11 @@
+for a in range(10):
+    for b in range(10):
+        for c in range(10):
+            for d in range(10):
+                for e in range(10):
+                    if a ==b or a == c or a == d or a == e or b == c or b == d or b == e or c == d or c == e or d == e:
+                        continue
+                    if (100*a + 10*b + c) * d == 100*c + 10*d + e:
+                        print("a=", a, "b=", b, "c=", c, "d=", d, "e=", e)
+                        print(f"{a}{b}{c}/{d} = {c}{d}{e}")
+# the variables and others differ according to the question and this is the basic vertion            
