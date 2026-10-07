@@ -1,0 +1,57 @@
+our_score = 0
+q1 = "1. What is the capital of USA?"
+print(q1)
+a1 = input(" Answer(write with out spaces): ")
+if a1 == "Washington,D.C.":
+    print("Correct!")
+    your_score += 2
+    print("now your score is:", your_score)
+else:
+    print("Incorrect. The correct answer is Washington,D.C.")
+    
+q2 = "2. What is the basic key word used to define a function in python?"
+print(q2)
+a2 = input(" Answer(write with out spaces): ")
+if a2.lower() == "def":
+    print("Correct!")
+    your_score += 2
+    print("now your score is:", your_score)
+else:
+    print("Incorrect. The correct answer is def.")
+    
+q3 = "3. What is 3 to the power of 7?"
+print(q3)
+a3 = input(" Answer(write with out spaces): ")
+if a3 == "2187":
+    print("Correct!")
+    your_score += 2
+    print("now your score is:", your_score)
+else:
+    print("Incorrect. The correct answer is 2187.")
+    
+q4 = "4. Who in created gravity?"
+print(q4)
+a4 = input(" Answer(think and read the question carefully): ")
+if a4 == "it is not a person, it is a force of nature":
+    print("Correct!")
+    your_score += 2
+    print("now your score is:", your_score)
+else:
+    print("Incorrect. The correct answer is 'it is not a person, it is a force of nature'.")
+    
+q5 = "5. Write a python program to print a series of numbers using for loop."
+print(q5)
+n = int(input('n ='))
+i = input("enter the variable name you want to use in the for loop: ")
+n2 = int(input("enter the starting number of the range: "))
+a5 = input(" Answer (write the answer in one line) : ")
+if a5.lower() == "for "+i+" in range("+str(n2)+","+str(n)+"):\\n print("+i+")":
+    print("Correct!")
+    your_score += 12
+    print("now your score is:", your_score)
+    print("your score for 20 (total marks) is:", your_score)
+    print("congratulations! you scored full marks in the quiz. You are a genius.")
+else:
+    print("Incorrect. The correct answer is 'for "+i+" in range("+str(n2)+","+str(n)+"):\\n print("+i+")'")
+    print("your total score for 20 is :", your_score )
+# the answers should be perfect you can also refer the program for the answers
